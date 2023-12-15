@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text and Image Side by Side</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #container {
+      display: flex;
+      align-items: center;
+    }
+
+    #text {
+      margin-right: 20px;
+    }
+
+    #image {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="text">
+      <h1>Your Text Here</h1>
+      <p>This is your text content.</p>
+    </div>
+    <img id="image" src="WhatsApp Image 2023-11-25 at 8.14.51 PM (1).jpeg" alt="Your Image">
+  </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assignment.css">
+    <title>GRADE REPORT SYSTEM</title>
+     
+      
+</head>
+<body>
+    <header>
+    
+       <h1>GRADE REPORT SYSTEM</h1>
+       <nav>
+        <ul>
+            <li><a href="Landing.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="Grade Report.html">Grade Report</a></li>
+            <li><a href="Help and Support.html">Help and Support</a></li>
+            <li><a href="Dashboard.html">My Dashboard</a></li>
+           
+               
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <h2>Student Login</h2>
+        <form id="loginForm">
+          <label for="studentID">Student ID:</label>
+          <input type="text" id="studentID" name="studentID" required>
+    
+          <label for="pin">PIN:</label>
+          <input type="password" id="pin" name="pin" required>
+    
+          <button type="button" onclick="attemptLogin()">Login</button>
+          <p id="errorMessage" class="error-message"></p>
+        </form>
+      </div>
+      <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <section style="border-radius: 10px; background-color: antiquewhite;">
+        <h1>About Us</h1>
+        <p>This system is designed to help students track and report grades that are not recorded in their academic profiles. The goal is to create an interactive, user-friendly interface that enables students to view their grades, report missing grades, and communicate with their instructors or academic administration.
+        </p>
+        </section>
+
+
+<footer>
+    <p>&copy; 2023 Grade Report System. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
